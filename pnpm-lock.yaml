@@ -2,7 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nomicfoundation/hardhat-toolbox': ^2.0.1
+  '@openzeppelin/contracts': ^4.8.1
   hardhat: ^2.12.6
+
+dependencies:
+  '@openzeppelin/contracts': 4.8.1
 
 devDependencies:
   '@nomicfoundation/hardhat-toolbox': 2.0.1_hardhat@2.12.6
@@ -458,6 +462,10 @@ packages:
       '@nomicfoundation/solidity-analyzer-win32-ia32-msvc': 0.1.0
       '@nomicfoundation/solidity-analyzer-win32-x64-msvc': 0.1.0
     dev: true
+
+  /@openzeppelin/contracts/4.8.1:
+    resolution: {integrity: sha512-xQ6eUZl+RDyb/FiZe1h+U7qr/f4p/SrTSQcTPH2bjur3C5DbuW/zFgCU/b1P/xcIaEqJep+9ju4xDRi3rmChdQ==}
+    dev: false
 
   /@scure/base/1.1.1:
     resolution: {integrity: sha512-ZxOhsSyxYwLJj3pLZCefNitxsj093tb2vq90mp2txoYeBqbcjDjqFhyM8eUjq/uFm6zJ+mUuqxlS2FkuSY1MTA==}
